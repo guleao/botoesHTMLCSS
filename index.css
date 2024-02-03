@@ -160,19 +160,3 @@ body {
     }
 }
 
-/* Animação 6 */
-
-.btn6 {
-    &::before {
-        width: 110%;
-        height: 0;
-        transform: translate(-50%, -50%) rotate(45deg);
-        border-radius: 80%;
-        border: 0.1px soli  black;
-    }
-    &:hover {
-        &::before{
-            height: 350%;
-        }
-    }
-}
